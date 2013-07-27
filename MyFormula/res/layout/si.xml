@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:padding="10dp">
+
+        <!-- definicoes -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Definições"
+                android:layout_gravity="center|center_vertical"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25dp"
+                android:paddingBottom="5dp"
+                android:layout_marginTop="-5dp">
+        </TextView>
+
+
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_gravity="center"
+                android:src="@drawable/si1"
+                android:adjustViewBounds="true"
+                />
+
+        <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/holo_blue_dark"/>
+
+
+        <!--principais-->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unidades Principais"
+                android:layout_gravity="center|center_vertical"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25dp"
+                android:paddingBottom="5dp"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_gravity="center"
+                android:src="@drawable/si3"
+                android:adjustViewBounds="true"/>
+
+        <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/holo_blue_dark"/>
+
+        <!--derivadas-->
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unidades Derivadas"
+                android:layout_gravity="center|center_vertical"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25dp"
+                android:paddingBottom="5dp"/>
+
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_gravity="center"
+                android:src="@drawable/si2"
+                android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+</ScrollView>

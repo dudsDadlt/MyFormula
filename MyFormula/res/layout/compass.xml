@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="11dp">
+
+    <TextView  android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Como a bússola eletrônica funciona?"
+               android:layout_gravity="center|center_vertical"
+               android:textColor="@android:color/holo_green_dark"
+               android:textSize="20dp"
+               android:paddingBottom="5dp"/>
+
+
+    <TextView  android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/compass"
+               android:layout_gravity="center_vertical|right"
+               android:textColor="@android:color/white"
+               android:textSize="16dp"
+               android:paddingBottom="10dp"
+            />
+    <view
+        android:id="@+id/mycompass"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        class="com.app.myformula.Compass" />
+
+</LinearLayout>

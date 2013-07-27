@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyFormula</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="accelerometerdef">O acelerômetro é um instrumento usado para medir a aceleração de um movimento. Esse aparelho foi desenvolvido a partir da 2a Lei de Newton: A mudança na quantidade de movimento é proporcional à força motora impressa e faz-se na direção da linha reta segundo a qual a força motora é aplicada. Pode se notar a influência da aceleração da gravidade em um dos eixos (aprox. 9.8m/s^2).</string>
+    <string name="proximidade">Os sensores de proximidade são dispositivos eletrônicos capazes de detectar a presença ou aproximação de objetos.  Essa detecção ocorre sem o contato físico entre o sensor e o elemento detectado. Esse sensor fica localizado ao lado da câmera frontal do celular. Quando o valor mostrado é 0.0 significa que houve a detecção de algo.</string>
+    <string name="compass">A bússula dos aparelhos eletrônicos funcionam através de um instrumento chamado magnetrômetro que mede a direção e intesidade de campos magnéticos. Desse modo, esse sensor interage com o campo magnético terrestre, localizando o pólo norte geográfico e indicando sua direção e sentido na tela. </string>
+    <string name="magfield">O sensor de campo magnético, ou magnetrômetro, mede a influência de campos geomagnéticos nos eixos X, Y e Z do aparelho. Esses sensores detectam alterações e distúrbios em um campo magnético, como fluxo, intensidade e direção. A detecção do campo é feita normalmente através de uma bobina (pelo princípio do Efeito Hall) que mede a força ou interação com os produtos magnéticos.</string>
+    <string name="gravtext">O sensor de gravidade mede a aceleração da gravidade sobre o aparelho. Este dispositivo é semelhante ao acelerômetro, entretando mede exclusivamente a ação da gravidade, desconsiderando outras acelerações sofridas pelo aparelho. Essa medição é feita através de um software que deriva seus dados do acelerômetro.</string>
+    <string name="gyrtext">O giroscópio mede o índice de rotação do aparelho em cada um dos eixos (X, Y e Z), servindo como referência de direção. O girscópio tradicional consiste em uma roda livre, ou varias rodas, que giraram em qualquer direção e com uma propriedade: opõe-se a qualquer tentativa de mudar sua direção original. O eixo em rotação tem um efeito de memória que guarda direção fixa em relação ao círculo máximo, dispensando as coordenadas geográficas. O seu funcionamento se baseia no princípio da inércia.</string>
+
+    <string name="sobre"></string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O que é o sensor de proximidade?"
+            android:layout_gravity="center|center_vertical"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="20dp"
+            android:paddingBottom="5dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/proximidade"
+            android:layout_gravity="center|center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            />
+
+    <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_blue_dark"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensor não encontrado"
+            android:id="@+id/proximityTextView"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"/>
+</LinearLayout>

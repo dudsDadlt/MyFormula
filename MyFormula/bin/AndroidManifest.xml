@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.myformula"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16"
+         />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_atom_crop_round"
+        android:label="@string/app_name"
+        android:theme="@style/AppDark" >
+        <activity
+            android:name="com.app.myformula.Intro"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.myformula.Mecanica"
+            android:label="Mecanica"
+            android:parentActivityName="com.app.myformula.TabsMenu"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.app.myformula.MECANICA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.myformula.Termologia"
+            android:label="Termologia"
+            android:parentActivityName="com.app.myformula.TabsMenu"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.app.myformula.TERMOLOGIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Optica"
+                android:label="Óptica"
+                android:parentActivityName="com.app.myformula.TabsMenu"
+                android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.app.myformula.OPTICA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Ondulatoria"
+                android:label="Ondulatória"
+                android:parentActivityName="com.app.myformula.TabsMenu"
+                android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.app.myformula.ONDULATORIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Eletromagnetismo"
+                android:label="Eletromagnetismo"
+                android:parentActivityName="com.app.myformula.TabsMenu"
+                android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.app.myformula.ELETROMAGNETISMO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.myformula.menu"
+            android:label="Menu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.myformula.Sobre"
+            android:label="Sobre" >
+            <intent-filter>
+                <action android:name="com.app.myformula.SOBRE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.myformula.Back"
+            android:label="Preferences" >
+            <intent-filter>
+                <action android:name="com.app.myformula.BACK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.myformula.TabsMenu"
+            android:label="Menu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.TABSMENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Accelerometer"
+                android:label="Acelerômetro"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.ACCELEROMETER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Proximidade"
+                android:label="Proximidade"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.PROXIMIDADE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Lista_Sensores"
+                android:label="Lista de Sensores"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.LISTA_SENSORES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Sensores"
+                android:label="Sensores"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.SENSORES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+                android:name="com.app.myformula.MagneticField"
+                android:label="Magnetrômetro"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.MAGNETICFIELD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Compass"
+                android:label="Bússola"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.COMPASS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+                android:name="com.app.myformula.AndroidCompass"
+                android:label="Bússola"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.ANDROIDCOMPASS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Outros"
+                android:label="Outros"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.OUTROS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.SI"
+                android:label="Unidades do SI"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.SI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Constantes"
+                android:label="Constantes Físicas"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.CONSTANTES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Mult"
+                android:label="Múltiplos e Submúltiplos"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.MULT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+                android:name="com.app.myformula.Multiplos"
+                android:label="Múltiplos e Submúltiplos"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.MULTIPLOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Gyroscope"
+                android:label="Giroscópio"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.GYROSCOPE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.myformula.Gravity"
+                android:label="Gravidade"
+                android:parentActivityName="com.app.myformula.TabsMenu" >
+            <intent-filter>
+                <action android:name="com.app.myformula.GRAVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
